@@ -3,7 +3,7 @@
 DAYSBACK=$1
 shift 1
 DAYSBACK=${DAYSBACK:-10}
->2 echo "Looking $DAYSBACK days back..."
+echo "Looking $DAYSBACK days back..." >&2
 
 if [[ "$(uname -s)" == "Darwin" ]]; then
     STARTDATE=$(date -v-${DAYSBACK}d +%F)
