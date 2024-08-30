@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Set your AWS CLI profile if needed
 # AWS_PROFILE="your-aws-profile-name"
